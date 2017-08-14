@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DfTSites.SiteDetails">
+    <ContentPage.Content>
+        <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="ID" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding ID}" Grid.Row="0" Grid.Column="1" />
+                <Label Text="Name" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Name}" Grid.Row="1" Grid.Column="1" />
+                <Label Text="Address 1" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Address1}" Grid.Row="2" Grid.Column="1" />
+                <Label Text="Address 2" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Address2}" Grid.Row="3" Grid.Column="1" />
+                <Label Text="City" Grid.Row="4" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding City}" Grid.Row="4" Grid.Column="1" />
+                <Label Text="Postcode" Grid.Row="5" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Postcode}" Grid.Row="5" Grid.Column="1" />
+                <Label Text="Picture" Grid.Row="6" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Picture}" Grid.Row="6" Grid.Column="1" />
+                <Label Text="Facilities" Grid.Row="7" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Facilities}" Grid.Row="7" Grid.Column="1" />
+                <Label Text="Latitude" Grid.Row="8" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Latitude}" Grid.Row="8" Grid.Column="1" />
+                <Label Text="Longitude" Grid.Row="9" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Longitude}" Grid.Row="9" Grid.Column="1" />
+                <Label Text="Comments" Grid.Row="10" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding Comments}" Grid.Row="10" Grid.Column="1" />
+                <Label Text="Contact Name" Grid.Row="11" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding ContactName}" Grid.Row="11" Grid.Column="1" />
+                <Label Text="Contact Email" Grid.Row="12" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding ContactEmail}" Grid.Row="12" Grid.Column="1" />
+                <Label Text="Contact No." Grid.Row="13" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding ContactNo}" Grid.Row="13" Grid.Column="1" />
+                
+            </Grid>
+            <Button Text="Save" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White"
+            Clicked="Save_Clicked"/>
+            <Button Text="Delete" HorizontalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White"
+            Clicked="Delete_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

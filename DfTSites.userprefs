@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{6A8A2CB1-D812-41A7-B649-A852279F9B48}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.DfTSites HideGettingStarted="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DfTSites/SiteDB.cs">
+    <Files>
+      <File FileName="Droid/MainActivity.cs" Line="9" Column="18" />
+      <File FileName="DfTSites/DfTSitesPage.xaml.cs" Line="45" Column="66" />
+      <File FileName="DfTSites/DfTSitesPage.xaml" Line="23" Column="15" />
+      <File FileName="DfTSites/Site.cs" Line="21" Column="24" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="DfTSites/SiteDetails.xaml" Line="60" Column="15" />
+      <File FileName="DfTSites/SiteDB.cs" Line="29" Column="44" />
+      <File FileName="DfTSites/App.xaml.cs" Line="24" Column="1" />
+      <File FileName="Droid/SqliteDB.cs" Line="1" Column="1" />
+      <File FileName="iOS/SqliteDB.cs" Line="16" Column="86" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DfTSites.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DfTSites.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A8BBE659-C5AE-4731-8BB7-CC866277B4FA" />
+</Properties>

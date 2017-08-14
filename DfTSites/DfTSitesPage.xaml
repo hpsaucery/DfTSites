@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Padding="10,0,10,0" xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:DfTSites" 
+    x:Class="DfTSites.DfTSitesPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Add All Records" Clicked="OnAdd" />
+                <Button Text="Update" Clicked="OnUpdate" HorizontalOptions="CenterAndExpand" />
+                <Button Text="Delete" Clicked="OnDelete" />
+            </StackLayout>
+            <ListView x:Name="SiteListView" ItemSelected="ListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}" />
+                        <!--<Detail="{Binding ID}"-->
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

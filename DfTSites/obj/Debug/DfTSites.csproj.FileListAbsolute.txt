@@ -1,0 +1,4 @@
+/Users/howard/Projects/DfTSites/DfTSites/obj/Debug/DfTSites.csproj.CoreCompileInputs.cache
+/Users/howard/Projects/DfTSites/DfTSites/obj/Debug/DfTSites.App.xaml.g.cs
+/Users/howard/Projects/DfTSites/DfTSites/obj/Debug/DfTSites.DfTSitesPage.xaml.g.cs
+/Users/howard/Projects/DfTSites/DfTSites/obj/Debug/DfTSites.SiteDetails.xaml.g.cs
